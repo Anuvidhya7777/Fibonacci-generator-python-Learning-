@@ -1,0 +1,27 @@
+def is_prime(n):
+    """
+    Check whether a number is prime.
+
+    Time Complexity: O(sqrt(n))
+    """
+    if n <= 1:
+        return False
+
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+
+    return True
+
+
+if __name__ == "__main__":
+    try:
+        num = int(input("Enter a number: "))
+
+        if is_prime(num):
+            print(f"{num} is a Prime number")
+        else:
+            print(f"{num} is NOT a Prime number")
+
+    except ValueError:
+        print("Please enter a valid integer")
