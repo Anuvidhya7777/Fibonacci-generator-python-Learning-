@@ -42,3 +42,34 @@ python main.py 10
 ```bash
 python factorial.py
 ```
+## Prime Number Checker
+
+    This Python program checks whether a given number is a prime number.
+
+---
+
+## Features
+- Optimized prime number checking
+- Command-line input
+- Input validation for non-integer values
+
+---
+
+## Concepts Used
+- Loops
+- Conditional statements
+- Functions
+- Mathematical optimization
+
+---
+
+## Time Complexity
+- **O(√n)** — checks divisibility only up to the square root of the number
+
+---
+
+## How to Run
+
+```bash
+python prime_number.py
+```
