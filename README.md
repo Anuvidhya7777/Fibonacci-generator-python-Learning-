@@ -73,3 +73,39 @@ python factorial.py
 ```bash
 python prime_number.py
 ```
+
+## Number reversal program
+    This Python program reverses a given integer and displays both the original
+    number and its reversed form.
+---
+
+## Features
+- Reverses a given integer
+- Uses arithmetic operations (no string conversion)
+- Command-line input
+
+---
+
+
+## Algorithm
+1. Read the input number
+2. Store the original number in a temporary variable
+3. Extract the last digit using modulus
+4. Build the reversed number by shifting digits
+5. Remove the last digit using integer division
+6. Repeat until the number becomes zero
+
+---
+
+## Time Complexity
+- **O(d)** where `d` is the number of digits
+
+---
+
+## How to Run
+
+```bash
+python reverse_number.py
+```
+
+
