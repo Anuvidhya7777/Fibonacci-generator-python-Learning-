@@ -108,4 +108,32 @@ python prime_number.py
 python reverse_number.py
 ```
 
+## String reversal program
+    
+    This Python program reverses a given string using a loop.
 
+---
+
+## Features
+- Reverses a string without using built-in reverse functions
+- Simple and beginner-friendly logic
+
+---
+
+## Concepts Used
+- For loop
+- String concatenation
+- Variables
+
+---
+
+## Time Complexity
+- **O(n)** where `n` is the length of the string
+
+---
+
+## How to Run
+
+```bash
+python reverse_string.py
+```
