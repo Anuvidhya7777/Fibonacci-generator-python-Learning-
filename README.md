@@ -137,3 +137,37 @@ python reverse_number.py
 ```bash
 python reverse_string.py
 ```
+
+## Compound Interest Calculator (Python)
+
+    This is a simple Python program that calculates **Compound Interest** based on user input.  
+    The user provides the **principal amount**, **rate of interest**, and **time period**, and the program outputs the compound interest.
+
+---
+
+## Formula Used
+
+    A = P × (1 + R / 100) ^ T  
+
+    Compound Interest = A − P  
+
+    Where:
+- **P** = Principal amount  
+- **R** = Rate of interest (percentage)  
+- **T** = Time in years  
+- **A** = Total amount after interest  
+
+---
+
+## How the Program Works
+
+1. Takes principal amount as input  
+2. Takes rate of interest as input  
+3. Takes time period in years as input  
+4. Calculates the total amount using the compound interest formula  
+5. Displays the compound interest  
+
+---
+```bash
+python compound_interest.py
+```
