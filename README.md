@@ -171,3 +171,41 @@ python reverse_string.py
 ```bash
 python compound_interest.py
 ```
+Swap Two Numbers Without Using a Temporary Variable
+📌 Description
+
+This project demonstrates how to swap the values of two variables without using a temporary variable. The logic is based on simple arithmetic operations and is commonly used to help beginners understand variable manipulation.
+
+🧠 Concept Used
+
+The swapping is achieved using addition and subtraction. By carefully updating the values step by step, the original values of the variables are exchanged without needing extra memory.
+
+▶️ Program Flow
+
+Take two integer inputs from the user
+
+Apply arithmetic operations to swap their values
+
+Display the values after swapping
+
+✅ Key Features
+
+No temporary variable required
+
+Easy to understand logic
+
+Suitable for beginners
+
+Works efficiently with integer values
+
+⚠️ Important Note
+
+This approach is ideal for learning purposes. While Python safely handles large integers, in some other programming languages this method may cause overflow for very large numbers.
+
+📚 Learning Outcomes
+
+Understanding variable reassignment
+
+Practicing arithmetic operations
+
+Learning alternative swapping techniques
